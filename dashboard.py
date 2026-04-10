@@ -796,7 +796,7 @@ elif page == "📈 Trend Analysis":
             fig_roll.add_trace(go.Scatter(x=x+x[::-1], y=upper+lower[::-1], fill="toself", fillcolor="rgba(0,201,167,0.08)", line_width=0, name="±1 SD"))
 
             # Raw readings (faint)
-            fig_roll.add_trace(go.Scatter(x=x, y=readings, mode="markers", marker=dict(color="#00C9A730", size=5), name="Raw"))
+            fig_roll.add_trace(go.Scatter(x=x, y=readings, mode="markers", marker=dict(color="rgba(0, 201, 167, 0.3)", size=5), name="Raw"))
 
             # Rolling mean
             fig_roll.add_trace(go.Scatter(
