@@ -1,0 +1,57 @@
+patient_id,timestamp,glucose_level,meal_type,meal_description,age,bmi,hba1c,insulin_dose,activity_level,sleep_hours,stress_level,is_diabetic
+P001,2024-01-01 07:00,95,fasting,,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 09:30,145,breakfast,oatmeal with berries,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 12:00,110,pre-lunch,,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 14:00,165,lunch,rice and chicken curry,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 16:30,130,snack,apple,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 19:00,155,dinner,grilled fish with vegetables,45,24.5,5.4,0,moderate,7.5,low,0
+P001,2024-01-01 22:00,105,bedtime,,45,24.5,5.4,0,moderate,7.5,low,0
+P002,2024-01-01 06:30,180,fasting,,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 09:00,245,breakfast,white bread with butter and jam,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 11:30,210,pre-lunch,,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 13:00,280,lunch,fried rice with soda,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 15:30,235,snack,chocolate bar,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 18:30,260,dinner,pizza,62,31.2,7.8,12,sedentary,5.5,high,1
+P002,2024-01-01 21:00,220,bedtime,,62,31.2,7.8,12,sedentary,5.5,high,1
+P003,2024-01-01 07:15,88,fasting,,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 09:45,120,breakfast,eggs and whole wheat toast,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 12:30,98,pre-lunch,,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 14:30,140,lunch,salad with grilled chicken,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 17:00,105,snack,nuts and yogurt,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 19:30,130,dinner,stir fry vegetables with tofu,35,22.1,5.1,0,active,8.0,low,0
+P003,2024-01-01 22:30,90,bedtime,,35,22.1,5.1,0,active,8.0,low,0
+P004,2024-01-01 06:45,155,fasting,,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 09:15,210,breakfast,pancakes with syrup,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 11:45,185,pre-lunch,,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 13:30,230,lunch,pasta with cream sauce,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 16:00,200,snack,cookies,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 19:00,215,dinner,beef stew with potatoes,55,28.7,6.9,0,light,6.0,moderate,1
+P004,2024-01-01 21:30,175,bedtime,,55,28.7,6.9,0,light,6.0,moderate,1
+P005,2024-01-01 07:00,92,fasting,,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 09:30,115,breakfast,smoothie bowl with granola,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 12:00,95,pre-lunch,,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 14:00,135,lunch,quinoa salad,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 16:30,100,snack,banana,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 19:00,128,dinner,salmon with sweet potato,28,20.5,4.9,0,very_active,8.5,low,0
+P005,2024-01-01 22:00,88,bedtime,,28,20.5,4.9,0,very_active,8.5,low,0
+P006,2024-01-02 06:30,175,fasting,,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 09:00,260,breakfast,sugary cereal with whole milk,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 11:30,225,pre-lunch,,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 13:00,295,lunch,burger and fries,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 15:30,255,snack,ice cream,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 18:30,270,dinner,fried chicken with mashed potatoes,70,33.5,8.2,18,sedentary,5.0,high,1
+P006,2024-01-02 21:00,235,bedtime,,70,33.5,8.2,18,sedentary,5.0,high,1
+P007,2024-01-02 07:15,100,fasting,,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 09:45,150,breakfast,whole grain cereal with milk,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 12:30,120,pre-lunch,,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 14:30,170,lunch,sandwich with turkey,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 17:00,135,snack,fruit salad,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 19:30,160,dinner,grilled vegetables with quinoa,42,25.8,5.7,0,moderate,7.0,moderate,0
+P007,2024-01-02 22:30,110,bedtime,,42,25.8,5.7,0,moderate,7.0,moderate,0
+P008,2024-01-02 06:45,165,fasting,,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 09:15,225,breakfast,donuts and coffee with sugar,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 11:45,200,pre-lunch,,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 13:30,250,lunch,white rice with gravy,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 16:00,215,snack,chips and dip,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 19:00,240,dinner,pasta carbonara,58,30.1,7.3,8,light,6.5,high,1
+P008,2024-01-02 21:30,195,bedtime,,58,30.1,7.3,8,light,6.5,high,1
