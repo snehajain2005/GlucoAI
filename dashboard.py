@@ -380,7 +380,7 @@ if page == "🏠 Dashboard":
             margin=dict(l=0, r=0, t=10, b=0),
             **{k: v for k, v in CHART_THEME.items()}
         )
-        fig.update_xaxis(showticklabels=False)
+        fig.update_xaxes(showticklabels=False)
         st.plotly_chart(fig, use_container_width=True)
 
     # Clinical guidelines panel
@@ -474,7 +474,7 @@ elif page == "📊 Glucose Tracker":
 
             # Threshold lines
             for y, color, label in [(70, "#FF4757", "Low"), (180, "#FFA502", "High"), (126, "#FF6B81", "Diabetic")]:
-                fig.add_hline(y=y, line_dash="dash", line_color=f"{color}60", row=1, col=1)
+                fig.add_hline(y=y, line_dash="dash", line_color="rgba(255, 71, 87, 0.4)", row=1, col=1)
 
             # Anomaly scores
             fig.add_trace(go.Bar(
